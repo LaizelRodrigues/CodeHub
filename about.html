@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<header>
+    <h2 class="Logo"><img src="./logo.png" alt="Logo" width="200" height="50"></h2>
+    <nav class="navigation">
+        <a href="CodeHub.html">Home</a>
+        <a href="#">About us</a>
+        <a href="#">Contact us</a>
+        <button class="btnLogin-popup">Join us</button>
+    </nav>
+</header>
+<body>
+    <section id = "about-sec">
+        <div class="container">
+            <div class="page-info">
+                <span>
+                    <h2>Welcome to CodeHub, your ultimate destination for all things coding and programming! Whether you're a seasoned developer or just starting out on your coding journey, CodeHub is here to empower you with knowledge, resources, and a vibrant community.
+
+                        At CodeHub, we offer a vast collection of tutorials, articles, and guides covering a wide range of programming languages, frameworks, and technologies. From Python and JavaScript to HTML/CSS and Java, you'll find comprehensive learning materials to enhance your skills and deepen your understanding.
+                        
+                        But CodeHub is more than just a learning platform. It's a thriving community of passionate coders, where you can connect with like-minded individuals, collaborate on projects, and seek guidance from experienced developers. Our forums and chat channels provide a supportive environment for discussions, problem-solving, and exchanging ideas.
+                        
+                        Stay up-to-date with the latest industry trends and cutting-edge technologies through our curated blogs and news section. Discover tips and tricks, explore best practices, and gain insights from industry experts who share their knowledge and experiences.
+                        
+                        CodeHub also hosts regular coding challenges and competitions, allowing you to test your skills, showcase your talent, and win exciting prizes. Engage in friendly competitions with fellow coders, and push your limits to reach new heights.
+                        
+                        Whether you're looking to enhance your coding skills, solve a specific programming problem, or simply connect with a vibrant community, CodeHub is your one-stop destination. Join us today and unlock the world of coding possibilities! TO REGISTER GO BACK TO HOME PAGE!</h2>
+                </span>
+            
+            </div>
+        </div>
+        <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </section>
+</body>
